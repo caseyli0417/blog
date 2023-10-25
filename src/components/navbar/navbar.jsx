@@ -2,6 +2,7 @@ import "./navbar.css"
 import { FaFacebookSquare } from 'react-icons/fa';
 import { AiFillGithub, AiFillInstagram } from 'react-icons/ai';
 import { ImLinkedin } from 'react-icons/im';
+import { Link } from 'react-router-dom'
 
 export default function Navbar() {
     return (
@@ -14,7 +15,9 @@ export default function Navbar() {
             </div>
             <div className="topCenter">
                 <ul className="topList">
-                    <li className="topListItem">HOME</li>
+                    <li className="topListItem">
+                        <Link to='/'>HOME</Link>
+                    </li>
                     <li className="topListItem">ABOUT</li>
                     <li className="topListItem">CONTACT</li>
                     <li className="topListItem">WRITE</li>
