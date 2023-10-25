@@ -16,7 +16,7 @@ export default function Navbar() {
             <div className="topCenter">
                 <ul className="topList">
                     <li className="topListItem">
-                        <Link to='/'>HOME</Link>
+                        <Link to='/' style={{textDecoration:"none", color:"inherit"}}>HOME</Link>
                     </li>
                     <li className="topListItem">ABOUT</li>
                     <li className="topListItem">CONTACT</li>

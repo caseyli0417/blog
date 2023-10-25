@@ -11,7 +11,7 @@ export default function Post1() {
             />
             <div className="postInfo">
                 <span className="postTitle">
-                    <Link to='/post1'>Sleep Deprivation: The Hidden Dangers of Not Getting Enough Rest</Link>
+                    <Link to='/post1' style={{textDecoration:"none", color:"inherit"}}>Sleep Deprivation: The Hidden Dangers of Not Getting Enough Rest</Link>
                 </span>
                 <span className="postDate">Tiffany Lam</span>
             </div>

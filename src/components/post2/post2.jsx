@@ -11,7 +11,7 @@ export default function Post2() {
             />
             <div className="postInfo">
                 <span className="postTitle">
-                    <Link to='/post2'>The Perils of Overstudying: Balancing Academics and Well-Being</Link>
+                    <Link to='/post2' style={{textDecoration:"none", color:"inherit"}}>The Perils of Overstudying: Balancing Academics and Well-Being</Link>
                 </span>
                 <span className="postDate">Casey Li</span>
             </div>
